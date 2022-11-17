@@ -8,6 +8,6 @@ The ct_sim.py in this repo is a reference implementation of the Consent-token si
 
 To sign the challenge requests, the script should be used as below:
 
-ct_sim.py -p <ct-priv-key-file> -C <challenge-string>
+ct_sim.py -p ct-priv-key-file -C challenge-string
 
 ct-priv-key-file should be the private key corresponding to the public key added to the box using the key-package CLI's.
